@@ -17,3 +17,14 @@ When the second example demands a more general solution, then and only then do w
 - hashCode()
 - Equal null
 - Equal object
+- ~~5 CHF * 2 = 10 CHF~~
+- Dollar/Franc duplication
+- Common equals
+- Common times
+
+### PROCEDURE
+1. Write a test. 
+2. Make it compile. 
+3. Run it to see that it fails. 
+4. Make it run. 
+5. Remove duplication.
