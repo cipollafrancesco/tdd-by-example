@@ -13,6 +13,10 @@ class Dollar {
     get amount(): number {
         return this._amount;
     }
+
+    equals(dollar: Dollar) {
+        return this._amount === dollar._amount;
+    }
 }
 
 export default Dollar;
