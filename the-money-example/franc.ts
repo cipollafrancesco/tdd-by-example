@@ -1,21 +1,13 @@
-class Franc {
-    private readonly _amount: number;
+import Money from "./money";
+
+class Franc extends Money {
 
     constructor(number: number) {
-        this._amount = number;
+        super(number);
     }
 
     times(multiplier: number) {
-        return new Franc(this._amount * multiplier);
-    }
-
-
-    get amount(): number {
-        return this._amount;
-    }
-
-    equals(dollar: Franc) {
-        return this._amount === dollar._amount;
+        return new Franc(this.amount * multiplier);
     }
 }
 

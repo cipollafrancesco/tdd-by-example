@@ -14,12 +14,12 @@ When the second example demands a more general solution, then and only then do w
 - ~~Dollar side effects?~~
 - Money rounding?
 - ~~equals()~~
-- hashCode()
 - Equal null
 - Equal object
 - ~~5 CHF * 2 = 10 CHF~~
+- ~~Dollar/Franc comparison~~
 - Dollar/Franc duplication
-- Common equals
+- ~~Common equals~~
 - Common times
 
 ### PROCEDURE
